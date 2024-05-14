@@ -1,0 +1,18 @@
+.contenedor{
+    margin: auto;
+    width: 895px;
+    height: 1100px; 
+    background: #0b0b1b;
+    border: 5px solid #c7a131;
+}
+
+.body{
+    background-color: black;
+}
+
+.logo{
+    position: relative;
+    left: 40px;
+    width: 500px;
+    
+}
