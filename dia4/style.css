@@ -1,0 +1,18 @@
+
+
+.fondoNegroo{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: transparent url('imagenes/FondoTwitch.png') no-repeat padding-box;
+    
+}
+
+.logoPrime{
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+}
