@@ -1,8 +1,21 @@
 
 @font-face{
     font-family:amazon;
-    src: url(./fontAmazon/Amazon\ Ember\ Display\ Light.ttf);
+    src: url(./fontAmazon/AmazonEmber_Lt.ttf);
 }
+
+@font-face {
+    font-family: bold;
+    src: url(./fontAmazon/AmazonEmber_Bd.ttf);
+}
+
+@font-face {
+    font-family:mirry;
+    src: url(./fontMyrriad/Myriad\ Pro\ Italic.ttf);
+}
+
+
+.fondoNegroo
 
 .textoGrande{
     position: absolute;
@@ -22,12 +35,175 @@
     position: absolute;
     color: white;
     font-family:amazon;
-    font-size: 30px;
-    top: 608px;
+    font-size: 32px;
+    top: 590px;
     left: 380px;
     width: 1160px;
     height: 102px;
+    /* UI Properties */
     background: transparent url('img/Now you can enjoy everything from Amazon Prime Video and Twitch Prime with you Amazon Prime subscription on one place that brings all the entertainment you love. .png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.texto3{
+    position: absolute;
+    font-size: 60px;
+    font-family: bold;
+    color: white;
+    top: 1720px;
+    left: 135px;
+    width: 1664px;
+    height: 60px;
+    background: transparent url('img/Don’t like to watch Live? No problem , we got you covered.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.texto4{
+    position: absolute;
+    font-family: amazon;
+    font-size: 49.4px;
+    color: white;
+    top: 2200px;
+    left: 207px;
+    width: 1492px;
+    height: 200px;
+    /* UI Properties */
+    background: transparent url('img/You’ll find a variety of movies, not only for adults but also for your family, with our without internet. 24/7. On demand..png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.texto5{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: bold;
+    top: 2460px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    background: transparent url('img/Cancel any time , anywhere .png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.texto6{
+    position: absolute;
+    font-family: amazon;
+    color: white;
+    font-size: 38px;
+    top: 2860px;
+    left: 269px;
+    width: 1310px;
+    height: 88px;
+    background: transparent url('img/If you don’t like our services, you can cancel anytime you want , no contracts, no fees..png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.texto7{
+    position: absolute;
+    color: white;
+    font-family: amazon;
+    font-size: 130px;
+    top: 2980px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    background: transparent url('img/Compatible devices.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.texto8{
+    position: absolute;
+    color: white;
+    font-family: amazon;
+    font-size: 47px;
+    top: 3245px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    background: transparent url('img/There’s a range of devices where you can enjoy all of the content available in Prime Entertainment:.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.texto9{
+    position: absolute;
+    color: white;
+    font-family: amazon;
+    font-size: 25px;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.texto10{
+    position: absolute;
+    color: white;
+    font-family: amazon;
+    font-size: 25px;
+    top: 4088px;
+    left: 738px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.texto11{
+    position: absolute;
+    color: white;
+    font-family: amazon;
+    font-size: 25px;
+    top: 4088px;
+    left: 923px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.texto12{
+    position: absolute;
+    color: white;
+    font-family: amazon;
+    font-size: 25px;
+    top: 4088px;
+    left: 1290px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.texto13{
+    position: absolute;
+    color: white;
+    font-family: amazon;
+    font-size: 25px;
+    top: 4088px;
+    left: 1173px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.texto14{
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    font-family: mirry;
+    top: 3953px;
+    left: 825px;
+    width: 190px;
+    height: 20px;
+    background: transparent url('img/Powered by.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
@@ -36,6 +212,7 @@
     left: 0px;
     width: 1920px;
     height: 1080px;  
+   
 }
 
 .logoGrande{
@@ -257,17 +434,21 @@
 
 .singUp{
     position: absolute;
-    top: 787px;
-    left: 780px;
-    width: 360px;
+    font-family: amazon;
+    font-size: 43px;
+    top: 733px;
+    left: 712px;
+    width: 500px;
     height: 40px;
     background: transparent url('img/Sign-Up on Amazon.png') 
 }
 
 .entrar{
     position: absolute;
-    top: 48px;
-    left: 1773px;
+    font-family: amazon;
+    font-size: 23px;
+    top: 18px;
+    left: 1765px;
     width: 50px;
     height: 20px;
     background: transparent url('img/Login.png') 0% 0% no-repeat padding-box;
