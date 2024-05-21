@@ -1,0 +1,361 @@
+@font-face {
+    font-family: cascadia;
+    src: url(/dia5/font/paradroidmono-bold.ttf);
+
+}
+@font-face {
+    font-family: tipo2;
+    src: url(/dia5/font/ParadroidMono-Light.ttf);
+}
+
+@font-face {
+    font-family: cascadia;
+    src: url(/dia5/font/Cascadia.ttf);
+}
+
+body{
+    width: 1920px;
+    height: 7000px;
+}
+
+
+
+
+.rectan1{
+
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color: black;
+    justify-content: center;
+}
+
+.Foods{
+    position: absolute;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+    color: orange;
+    text-align: center;
+    font-family: cascadia;
+    font-size: 40px;
+    left: 50px;
+}
+
+.Home{
+    position: absolute;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-family: cascadia;
+    font-size: 40px;
+    left: 1110px;
+}
+
+.About{
+    position: absolute;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-family: cascadia ;
+    font-size: 40px;
+    left: 1260px;
+}
+
+.Menu{
+    position: absolute;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-family:cascadia ;
+    font-size: 40px;
+    left: 1410px;
+}
+
+.Services{
+    position: absolute;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-family:cascadia ;
+    font-size: 40px;
+    left: 1560px;
+}
+
+.full{
+    position: absolute;
+    top: 200px;
+    width: 900px;
+    height: 400px;
+    color: orange;
+    font-family:cascadia ;
+    font-size: 100px;
+    left: 180px;
+
+}
+
+.Contac{
+    position: absolute;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-family: cascadia;
+    font-size: 40px;
+    left: 1740px;
+}
+
+.food2{
+    position: absolute;
+    top: 410px;
+    width: 900px;
+    height: 400px;
+    color: white;
+    text-align: left;
+    font-family: cascadia;
+    font-size: 40px;
+    left: 180px; 
+}
+
+.cuadrito{
+    position: absolute;
+    top: 770px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(228, 141, 10);
+    left: 180px; 
+}
+
+.today{
+    position: absolute;
+    font-size: 33px;
+    top: -32px;
+    color: white;
+    left: 7px;
+}
+
+.fotoHome{
+    position: absolute;
+    top: 210px;
+    left: 1100px;
+    width: 570px;
+}
+
+
+.rectan2{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color:rgb(0, 0, 0);
+    justify-content: center;
+}
+
+
+.aboutimg{
+    position: absolute;
+    top: 300px;
+    width: 570px;
+    left: 200px;
+    font-family: cascadia;
+    font-size:30px ;    
+}
+
+.about{
+    position: absolute;
+    top: 300px;
+    width: 300px;
+    height: 300px;
+    left: 1000px;
+    font-family: cascadia;
+    font-size:30px ;
+    color: orange;
+}
+
+
+.weSpeak{
+    position: absolute;
+    top: 310px;
+    width: 816px;
+    height: 300px;
+    left: 1000px;
+    font-family: cascadia;
+    color: white;
+    font-size: 80px;
+
+}
+
+.itIs{
+    position: absolute;
+    top: 550px;
+    width: 816px;
+    height: 300px;
+    left: 1000px;
+    font-family: cascadia;
+    font-size:30px ;
+    color:white;
+}
+
+
+.cuadrito2{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    top: 700px;
+    left: 1000px;
+}
+
+
+.learn{
+    position: absolute;
+    font-size: 30px;
+    top: -25px;
+    left: 17px;
+    color: white;
+}
+
+.rectan3{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color:rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.foodMenu{
+    position: absolute;
+    top: 100px;
+    width: 816px;
+    height: 300px;
+    left: 900px;
+    font-family: cascadia;
+    font-size:40px ;
+    color:orange;
+}
+
+
+.fresh{
+    position: absolute;
+    top: 130px;
+    width: 1316px;
+    height: 300px;
+    left: 400px;
+    font-family: cascadia;
+    font-size:80px ;
+    color:white;
+
+}
+
+
+
+.cuadro1{
+    position: absolute;
+    top: 410px;
+    width: 500px;
+    height: 600px;
+    left: 100px;
+    background-color: #ffefe8;
+}
+
+
+.t{
+    position: absolute;
+    color:black;
+    top: 450px;
+    width: 150px;
+    height: 50px;
+    left: 190px;
+    font-family: cascadia;
+
+}
+
+.t1{
+    position: absolute;
+    color:black;
+    top: 480px;
+    width: 150px;
+    height: 50px;
+    left: 210px;
+    font-family: cascadia;
+
+}
+
+.t2{
+    position: absolute;
+    color:black;
+    top: 510px;
+    width: 150px;
+    height: 50px;
+    left: 230px;
+    font-family: cascadia;
+}
+
+
+.hamburguesa{
+    position: absolute;
+    top: 10px;
+    width:470px;
+    left: 15px;
+
+}
+
+
+.cuadro2{
+    position: absolute;
+    top: 410px;
+    width: 500px;
+    height: 600px;
+    left: 200px;
+    background-color: #ffefe8;
+}
+
+.hamburguesa2{
+    position: absolute;
+    top: 410px;
+    width:500px;
+    left: 750px;
+
+}
+
+.pollo{
+    position: absolute;
+    top: 420px;
+    width:440px;
+    left: 1400px;
+
+}
+
+
+.rectan4{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color:red;
+    justify-content: center;
+}
+
+.rectan5{
+    position: relative;
+    width: 1920px;
+    height: 1000px;
+    background-color:violet;
+    justify-content: center;
+}
+
+.rectan6{
+    position: relative;
+    width: 1920px;
+    height: 540px;
+    background-color:green;
+    justify-content: center;
+}
+
