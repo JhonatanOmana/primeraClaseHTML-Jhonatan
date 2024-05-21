@@ -87,7 +87,7 @@ body{
     text-align: center;
     font-family:cascadia ;
     font-size: 40px;
-    left: 1560px;
+    left: 1527.5px;
 }
 
 .full{
@@ -128,7 +128,7 @@ body{
 
 .cuadrito{
     position: absolute;
-    top: 770px;
+    top: 580px;
     width: 200px;
     height: 50px;
     background-color: rgb(228, 141, 10);
@@ -138,7 +138,7 @@ body{
 .today{
     position: absolute;
     font-size: 33px;
-    top: -32px;
+    top: -30px;
     color: white;
     left: 7px;
 }
@@ -260,20 +260,76 @@ body{
 .cuadro1{
     position: absolute;
     top: 410px;
-    width: 500px;
-    height: 600px;
+    width: 480px;
+    height: 480px;
     left: 100px;
-    background-color: #ffefe8;
+   
+}
+
+.esquina{
+    position: absolute;
+    top: 412px;
+    left: 480px;
+    width: 100px;
+}
+
+.text{
+    position: absolute;
+    color:black;
+    top: 750px;
+    width: 150px;
+    height: 50px;
+    left: 280px;
+    font-family: cascadia;
+
+}
+
+.text1{
+    position: absolute;
+    color:black;
+    top: 770px;
+    width: 150px;
+    height: 50px;
+    left: 300px;
+    font-family: cascadia;
+
+}
+
+.text2{
+    position: absolute;
+    color:orange;
+    top: 790px;
+    width: 150px;
+    height: 50px;
+    left: 320px;
+    font-family: cascadia;
 }
 
 
-.t{
+.cuadro2{
+    position: absolute;
+    top: 410px;
+    width: 480px;
+    height: 480px;
+    left: 720px;
+   
+}
+
+.esquina2{
+    position: absolute;
+    top: 412px;
+    left: 1100px;
+    width: 100px;
+   
+}
+
+.tet{
     position: absolute;
     color:black;
-    top: 450px;
-    width: 150px;
+    top: 750px;
+    width: 250px;
     height: 50px;
-    left: 190px;
+    left: 870px;
     font-family: cascadia;
 
 }
@@ -281,56 +337,97 @@ body{
 .t1{
     position: absolute;
     color:black;
-    top: 480px;
+    top: 770px;
     width: 150px;
-    height: 50px;
-    left: 210px;
+    height: 400px;
+    left: 910px;
     font-family: cascadia;
 
 }
 
 .t2{
     position: absolute;
-    color:black;
-    top: 510px;
+    color:orange;
+    top: 790px;
     width: 150px;
     height: 50px;
-    left: 230px;
+    left: 930px;
+    font-family: cascadia;
+}
+
+.cuadro3{
+    position: absolute;
+    top: 410px;
+    width: 480px;
+    height: 480px;
+    left: 1320px;
+   
+}
+
+.esquina3{
+    position: absolute;
+    top: 412px;
+    left: 1700px;
+    width: 100px;
+   
+}
+
+.textito{
+    position: absolute;
+    color:black;
+    top: 750px;
+    width: 150px;
+    height: 50px;
+    left: 1480px;
+    font-family: cascadia;
+}
+
+.textito1{
+    position: absolute;
+    color:black;
+    top: 770px;
+    width: 150px;
+    height: 50px;
+    left: 1510px;
+    font-family: cascadia;
+}
+
+.textito2{
+    position: absolute;
+    color:orange;
+    top: 790px;
+    width: 150px;
+    height: 50px;
+    left: 1530px;
     font-family: cascadia;
 }
 
 
+
+
+
 .hamburguesa{
     position: absolute;
-    top: 10px;
-    width:470px;
-    left: 15px;
+    top: 520px;
+    width:200px;
+    left: 240px;
 
 }
 
-
-.cuadro2{
-    position: absolute;
-    top: 410px;
-    width: 500px;
-    height: 600px;
-    left: 200px;
-    background-color: #ffefe8;
-}
 
 .hamburguesa2{
     position: absolute;
-    top: 410px;
-    width:500px;
-    left: 750px;
+    top: 520px;
+    width:200px;
+    left: 850px;
 
 }
 
 .pollo{
     position: absolute;
-    top: 420px;
-    width:440px;
-    left: 1400px;
+    top: 520px;
+    width:200px;
+    left: 1450px;
 
 }
 
@@ -339,23 +436,203 @@ body{
     position: relative;
     width: 1920px;
     height: 1080px;
-    background-color:red;
+    background-color:rgb(0, 0, 0);
     justify-content: center;
+}
+
+.ser{
+    position: absolute;
+    font-size: 40px;
+    color: orange;
+    left: 840px;
+    top: 30px;
+
+}
+
+.weProvide{
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    left: 450px;
+    top: 60px;
+}
+
+.titulo1{
+    position: absolute;
+    font-size: 40px;
+    color: orange;
+    left: 310px;
+    top: 700px;
+}
+
+.titulo2{
+    position: absolute;
+    font-size: 40px;
+    color: orange;
+    left: 860px;
+    top: 700px;
+}
+
+.titulo3{
+    position: absolute;
+    font-size: 40px;
+    color: orange;
+    left: 1470px;
+    top: 700px;
+}
+
+
+.bla{
+    position: absolute;
+    font-size: 38px;
+    color: white;
+    top: 800px;
+    left: 130px;
+    text-align: center
+}
+
+.bla1{
+    position: absolute;
+    font-size: 38px;
+    color: white;
+    top: 800px;
+    left: 740px;
+    text-align: center
+}
+
+.bla2{
+    position: absolute;
+    font-size: 38px;
+    color: white;
+    top: 800px;
+    left: 1330px;
+    text-align: center
+}
+
+
+
+.imagen1{
+    position: absolute;
+    width: 400px;
+    top: 300px;
+    left: 170px;
+}
+
+.imagen2{
+    position: absolute;
+    width: 400px;
+    left: 750px;
+    top: 300px;
+}
+
+.imagen3{
+    position: absolute;
+    width: 400px;
+    left: 1350px;
+    top: 300px;
 }
 
 .rectan5{
     position: relative;
     width: 1920px;
-    height: 1000px;
-    background-color:violet;
+    height: 780px;
+    background-color:rgb(0, 0, 0);
     justify-content: center;
+}
+
+.rectanguloGrande{
+    position: absolute;
+    width: 1700px;
+    height: 550px;
+    left: 100px;
+    top: 100px;
+}
+
+.weMake{
+    position: absolute;
+    font-size: 80px;
+    color: black;
+    width: 1000px;
+    top: 150px;
+    left: 440px;
+    text-align: center;
+}
+
+.cajitaR5{
+    position:absolute;
+    background-color: orange;
+    width: 230px;
+    height: 50px;
+    top: 450px;
+    left: 830px;
+}
+
+.learn2{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    top: 5px;
+    left: 45px;
 }
 
 .rectan6{
     position: relative;
     width: 1920px;
     height: 540px;
-    background-color:green;
+    background-color:rgb(0, 0, 0);
     justify-content: center;
 }
+
+.titul{
+    position: absolute;
+    font-size: 30px;
+    left: 350px;
+    top: 100px;
+    color: white;
+}
+
+.titul1{
+    position: absolute;
+    font-size: 30px;
+    left: 650px;
+    top: 100px;
+    color: white;
+}
+
+.titul2{
+    position: absolute;
+    font-size: 30px;
+    left: 1000px;
+    top: 100px;
+    color: white;
+}
+
+.titul3{
+    position: absolute;
+    font-size: 30px;
+    left: 1380px;
+    top: 100px;
+    color: white;
+}
+
+.linea{
+    position: absolute;
+    background-color: black;
+}
+
+.linea1{
+    position: absolute;
+    background-color: black;
+}
+
+
+.linea2{
+    position: absolute;
+}
+
+
+.linea3{
+    position: absolute;
+}
+
 
