@@ -1,0 +1,7 @@
+<svg id="Boton_Consultar" xmlns="http://www.w3.org/2000/svg" width="311" height="79" viewBox="0 0 311 79">
+  <g id="Rectangle_10" data-name="Rectangle 10" fill="#157ffb" stroke="#707070" stroke-width="1">
+    <rect width="311" height="79" rx="18" stroke="none"/>
+    <rect x="0.5" y="0.5" width="310" height="78" rx="17.5" fill="none"/>
+  </g>
+  <text id="Volver_al_menú_principal" data-name="Volver al menú principal" transform="translate(153 45)" fill="#fff" font-size="23" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="-115" y="0">Volver al menú principal</tspan></text>
+</svg>

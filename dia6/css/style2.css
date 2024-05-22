@@ -1,0 +1,154 @@
+@font-face {
+    font-family: regular;
+    src: url(/dia6/myriad-pro/MYRIADPRO-REGULAR.OTF);
+}
+
+
+.fondo{
+    width: 1920px;
+    height: 1464px;
+}
+
+.cabeza{
+    background-color: rgb(64, 94, 228);
+    position: fixed;
+    width: 1920px;
+    height: 147px;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Regular;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-size: 30px;
+
+}
+
+#escudo {
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#boton {
+    background-color: #fff;
+    color: #000;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.cuadroazul{
+    position: absolute;
+    background-color:rgb(64, 94, 228);
+    width: 1920px;
+    height: 147px;
+    
+
+}
+
+.tex1{
+    position: absolute;
+    width: 600px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    top: 20px;
+    font-family: regular;
+    left: 80px;
+
+}
+
+.tex2{
+    position: absolute;
+    width: 600px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    top: 15px;
+    left: 1270px;
+    font-family: regular;
+}
+
+.logoGov{
+    position: absolute;
+    left: 830px;
+    top: 50px;
+}
+
+.cuadroBlanco{
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 1225px;
+    background: transparent url('img/Rectangle 12.png') 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+
+}
+
+.solicitud{
+    position: absolute;
+    top: 624px;
+    left: 785px;
+    width: 350px;
+    height: 39px; 
+    color: black;
+    font-size: 30px;
+    font-family: regular ; 
+    text-align: center;
+
+}
+
+.logoDian{
+    position: absolute;
+    top: 242px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+    background: transparent url('img/2560px-Dian_(Colombia)_logo.svg.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+
+.fondo {
+    width: 1920px;
+    height: 1464px;
+
+}
+
+.circulo{
+    position: absolute;
+    top: 359px;
+    left: 845px;
+    width: 231px;
+    height: 231px;
+    background: transparent url('img/Icon ionic-ios-checkmark-circle.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.sol{
+    position: absolute;
+    top: 791px;
+    left: 828px;
+    width: 264px;
+    height: 88px;
+    background: transparent url('img/ajaxloadingbar.gif.xhtml;jsessionid=+sHFYknGCBRjqaTejHaNvZYe.muisca_face_nodo6.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

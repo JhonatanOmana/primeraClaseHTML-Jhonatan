@@ -1,0 +1,242 @@
+@font-face {
+    font-family: regular;
+    src: url(/dia6/myriad-pro/MYRIADPRO-REGULAR.OTF);
+}
+
+
+
+
+
+.fondo {
+    width: 1920px;
+    height: 1638px;
+
+}
+
+.cabeza{
+    background-color: rgb(64, 94, 228);
+    position: fixed;
+    width: 1920px;
+    height: 147px;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Regular;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-size: 30px;
+
+}
+
+#escudo {
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#boton {
+    background-color: #fff;
+    color: #000;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.cuadroazul{
+    position: absolute;
+    background-color:rgb(64, 94, 228);
+    width: 1920px;
+    height: 147px;
+    
+
+}
+
+.tex1{
+    position: absolute;
+    width: 600px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    top: 20px;
+    font-family: regular;
+    left: 80px;
+
+}
+
+.tex2{
+    position: absolute;
+    width: 600px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    top: 15px;
+    left: 1270px;
+    font-family: regular;
+}
+
+.logoGov{
+    position: absolute;
+    left: 830px;
+    top: 50px;
+}
+
+.cuadroBlanco{
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 1225px;
+    background: transparent url('img/Rectangle 12.png') 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+
+}
+
+.logoDian{
+    position: absolute;
+    top: 242px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+    background: transparent url('img/2560px-Dian_(Colombia)_logo.svg.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.tramitarRut{
+    position: absolute;
+    top: 1049px;
+    left: 701px;
+    width: 63px;
+    height: 84px;
+    background: transparent url('img/Icon awesome-file-contract.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.firma{
+    position: absolute;
+    top: 1060px;
+    left: 1168px;
+    width: 103px;
+    height: 62px;
+    background: transparent url('img/Icon awesome-signature.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.sol{
+    position: absolute;
+    top: 409px;
+    left: 845px;
+    width: 231px;
+    height: 77px;
+    background: transparent url('img/ajaxloadingbar.gif.xhtml;jsessionid=+sHFYknGCBRjqaTejHaNvZYe.muisca_face_nodo6.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.catcha{
+    position: absolute;
+    top: 750px;
+    left: 743px;
+    width: 401px;
+    height: 113px;
+    background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.bienvenido{
+    position: absolute;
+    top: 310px;
+    left: 627px;
+    width: 666px;
+    height: 64px;
+    background: transparent url('img/Bienvenido a la Dirección de Impuestos y Aduanas Nacionales por favor ingresa los datos de tu cédula para ingresar al.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    font-family: regular;
+    font-size: 25px;
+}
+
+.eresUsu{
+    position: absolute;
+    top: 970px;
+    left: 434px;
+    width: 1052px;
+    height: 35px;
+    background: transparent url('img/Eres usuario nuevo? Mira estos servicios que pueden ser de gran utilidad.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-size: 30px;
+    font-family: regular;
+    text-align: center;
+    
+
+}
+
+.tramitarRutTex{
+    position: absolute;
+    top: 1100px;
+    left: 638px;
+    width: 188px;
+    height: 35px;
+    background: transparent url('img/Tramitar RUT.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: regular;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.firmaTramite{
+    position: absolute;
+    top: 1100px;
+    left: 1029px;
+    width: 380px;
+    height: 35px;
+    background: transparent url('img/Tramitar Firma Electrónica.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: regular;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.recuadro{
+    position: absolute;
+    top: 656px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    background-color: transparent;
+    opacity: 1;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.recuadro2{
+    position: absolute;
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    background-color: transparent;
+    opacity: 1;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
