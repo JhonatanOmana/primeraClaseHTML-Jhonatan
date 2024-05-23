@@ -214,9 +214,31 @@
 
 }
 
+.numero{
+    position: absolute;
+    top: 485px;
+    left: 569px;
+    width: 208px;
+    height: 21px; 
+    font-family: regular;
+    font-size: 21px;
+    color: #000;   
+}
+
+.fecha{
+    position: absolute;
+    top: 580px;
+    left: 564px;
+    width: 318px;
+    height: 21px;
+    font-size:21px ;
+    font-family: regular;
+    color: #000;
+}
+
 .recuadro{
     position: absolute;
-    top: 656px;
+    top: 630px;
     left: 564px;
     width: 792px;
     height: 63px;
@@ -239,4 +261,118 @@
     border-width: 1px;
     border-style: solid;
 }
+
+.muisca{
+    position: absolute;
+    top: 871px;
+    left: 681px;
+    width: 518px;
+    height: 11px;
+    font-size: 10px;
+    font-family: regular;
+
+}
+
+.cazul{
+    position: absolute;
+    top: 900px;
+    left: 854px;
+    width: 165px;
+    height: 42px; 
+
+}
+
+.cazul2{
+    position: absolute;
+    top: 1296px;
+    left: 622px;
+    width: 220px;
+    height: 56px; 
+    background-color: rgb(64, 94, 228);  
+    text-align: center;
+    font-family: regular;
+    font-size: 12px;
+    border-radius: 20px;
+  
+}
+
+.cazul2 a{
+position: absolute;
+ text-decoration: none;
+ top: 20px;
+ left: 80px;
+ color: white;
+}
+
+
+.cazul3{
+    position: absolute;
+    top: 1296px;
+    left: 1100px;
+    width: 220px;
+    height: 56px; 
+    background-color: rgb(64, 94, 228);  
+    text-align: center;
+    font-family: regular;
+    font-size: 12px;
+    border-radius: 20px;
+  
+}
+
+.cazul3 a{
+    position: absolute;
+    text-decoration: none;
+    top: 20px;
+    left: 80px;
+    color: white;
+}
+
+
+.rut{
+    position: absolute;
+    top: 1189px;
+    left: 508px;
+    width: 448px;
+    height: 86px;
+    text-align: center; 
+    font-family: regular; 
+    font-size: 15px;  
+}
+
+.electro{
+    position: absolute;
+    top: 1186px;
+    left: 1083px;
+    width: 272px;
+    height: 86px;
+    font-family: regular;
+    font-size:15px ;    
+}
+
+label{
+    display: block;
+    font-size: 28px;
+    
+}
+
+input{
+    font-size: 28px;
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+        
+}
+
+
+
+
+.entrada{
+    position: absolute;
+    top: 520px;
+    left: 564px;
+   
+}
+
+
 

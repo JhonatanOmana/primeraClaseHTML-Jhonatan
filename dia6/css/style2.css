@@ -103,7 +103,7 @@
 
 .solicitud{
     position: absolute;
-    top: 624px;
+    top: 780px;
     left: 785px;
     width: 350px;
     height: 39px; 
@@ -114,14 +114,24 @@
 
 }
 
+.felicitaciones{
+    position: absolute;
+    top: 850px;
+    left: 460px;
+    width: 1000px;
+    height: 84px;    
+    font-size: 35px;
+    font-family:regular ;
+    color: #000;
+    text-align: center;
+}
+
 .logoDian{
     position: absolute;
-    top: 242px;
+    top: 440px;
     left: 804px;
     width: 313px;
     height: 53px;
-    background: transparent url('img/2560px-Dian_(Colombia)_logo.svg.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 
 }
 
@@ -134,7 +144,7 @@
 
 .circulo{
     position: absolute;
-    top: 359px;
+    top: 559px;
     left: 845px;
     width: 231px;
     height: 231px;
@@ -145,10 +155,32 @@
 
 .sol{
     position: absolute;
-    top: 791px;
+    top: 999px;
     left: 828px;
     width: 264px;
     height: 88px;
     background: transparent url('img/ajaxloadingbar.gif.xhtml;jsessionid=+sHFYknGCBRjqaTejHaNvZYe.muisca_face_nodo6.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+
+.consultar2{
+    position: absolute;
+    top: 1078px;
+    left: 805px;
+    width: 311px;
+    height: 79px; 
+    background-color: rgb(64, 94, 228); 
+    border-radius: 15px;  
+}
+
+.consultar2 a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-family: regular ;
+    text-align: center;
+    font-size: 20px;
+    left: 70px;
+    top: 30px;
+    
 }

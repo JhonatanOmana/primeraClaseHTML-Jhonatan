@@ -88,3 +88,118 @@
     left: 830px;
     top: 50px;
 }
+
+.cuadrob{
+    position: absolute;
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 1225px;
+    background: transparent url('img/Rectangle 12.png') 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;    
+}
+
+.dianlogo{
+    position: absolute;
+    top: 430px;
+    left: 804px;
+    width: 313px;
+    height: 53px;    
+}
+
+.text1{
+    position: absolute;
+    top: 580px;
+    left: 420px;
+    width: 1168px;
+    height: 64px; 
+    color: black;
+    font-family: regular;
+    font-size: 26px; 
+    text-align: center;  
+}
+
+.sol{
+    position: absolute;
+    top: 700px;
+    left: 845px;
+    width: 231px;
+    height: 77px;    
+}
+
+
+label{
+    display: block;
+    font-size: 28px;
+}
+
+input{
+    font-size: 28px;
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;    
+
+}
+
+.ingresar1{
+    position: absolute;
+    font-size: 28px;
+    top: 790px;
+    left: 560px;
+}
+
+.robot{
+    position: absolute;
+    top: 1020px;
+    left: 752px;
+    width: 401px;
+    height: 113px;
+
+}
+
+.icon2{
+    position: absolute;
+    top: 500px;
+    left: 925px;
+    width: 71px;
+    height: 42px;    
+}
+
+.tramite5{
+    position: absolute;
+    top: 1156px;
+    left: 840px;
+    width: 220px;
+    height: 56px; 
+    background-color: rgb(64, 94, 228);  
+    text-align: center;
+    font-family: regular;
+    font-size: 12px;
+    border-radius: 20px;  
+
+}
+
+.tramite5 a{
+    position: absolute;
+    text-decoration: none;
+    top: 10px;
+    left: 60px;
+    color: white;
+    font-size: 24px;
+    font-family: regular;
+
+}    
+
+.tra{
+    position: absolute;
+    top: 530px;
+    left: 830px;
+    width: 360px;
+    height: 24px;   
+    color: black; 
+    font-size: 24px;
+    font-family: regular;
+}
