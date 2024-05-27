@@ -1,0 +1,17 @@
+#dinosaurio{
+    
+    top: 1px;
+
+}
+
+#letras{
+
+}
+
+.contenedorGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 5opx;
+}
+
