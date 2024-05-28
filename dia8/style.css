@@ -1,17 +1,71 @@
-#dinosaurio{
-    
+.contenedor{
+    width: 100vw;
+    height: 200vw;
+    background-color: white;
+    margin: auto;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 200vw;
+    background-color: white;
+    margin: auto;
+}
+
+
+
+.dinosaurio{
     top: 1px;
+    grid-row-start: 1;
+    grid-row-end: 1;
 
 }
 
-#letras{
+.letras{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
 
+.letrita{
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
 }
 
 .contenedorGrid{
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: black;
-    padding: 5opx;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 2%;
+ 
+    
+
+}
+
+.letraVid{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.dinGrande{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.dinGrande2{
+    width: 100%;
+    height: auto;
+    border-radius: 1vw;
+}
+
+.letras2{
+    
+
 }
 
