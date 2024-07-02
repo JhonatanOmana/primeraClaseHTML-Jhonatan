@@ -1,0 +1,111 @@
+@font-face {
+    font-family: mLigth;
+    src: url(font/MyriadPro-Light.otf);
+}    
+
+@font-face {
+    font-family: mRegular;
+    src: url(font/MYRIADPRO-REGULAR.OTF);
+
+}
+
+@font-face {
+    font-family: mBold;
+    src: url(font/MYRIADPRO-BOLD.OTF);
+}
+
+@font-face {
+    font-family: mSemibold;
+    src: url(font/Myriad\ Pro\ Semibold\ SemiCondensed\ Italic.otf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.contenedor{
+    position: absolute;
+    width: 100vw;
+    height: 305vw;
+    overflow: hidden;
+}
+
+.invisible{
+    position: absolute;
+    left: 50vw;
+    width: 1vw;
+    height: 1vw;
+}
+
+.fondo{
+    position: absolute;
+    top: 8.65vw;
+    width: 100%;
+    height: 52vw;
+}
+
+.menuBar{
+    position: fixed;
+    width: 100%;
+    background-color: #3367cc;
+    height: 9vw;
+    z-index: 1;
+
+}
+
+.logoGobierbo{
+    position: absolute;
+    top: 2,55vw;
+    left: 41vw;
+    width: 18vw;
+}
+
+.letra1,
+.letra2,
+.letra3{
+    font-family: mRegular;
+    position: absolute;
+    top: 3.5vw;
+    font-size: 1.5vw;
+}
+
+.letra1{
+    color: white;
+    left: 14vw;
+
+}
+
+.letra2{
+    color: white;
+    left: 27vw;
+
+}
+
+.letra3{
+    color: white;
+    left: 68vw;
+
+}
+
+.letra4{
+    font-family: mRegular;
+    position: absolute;
+    top: 3.2vw;
+    font-size: 1.5vw;
+    left: 81vw;
+    color: black;
+    background-color: white;
+    border-radius: 2vw;
+    width: 12vw;
+    height: 2.2vw;
+    text-align: center;
+    padding-top: 0.3vw;
+    border: 0.1vw solid #808080;
+
+}
